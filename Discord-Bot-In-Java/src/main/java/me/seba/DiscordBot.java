@@ -14,7 +14,7 @@ public class DiscordBot {
                 .addEventListeners(new BotCommands())
                 .build().awaitReady();
 
-        Guild guild = jda.getGuildById("1072964905000505474");
+ //*       Guild guild = jda.getGuildById("DISCORD"GUILDED"ID");
         if (guild != null){
 
             guild.upsertCommand("test", "test").queue();
